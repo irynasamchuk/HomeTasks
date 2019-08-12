@@ -1,5 +1,5 @@
 package zooShopHomeTasks;
-
+//зробити Animal абстрактним класом
 public class Animal {
     private String name;
     private int legsCount;

@@ -3,7 +3,7 @@ import java.util.List;
 import java.util.ArrayList;
 
 public class Main {
-
+// створити окремий клас для Animal Builder
     public static void main(String[] args) {
         List<Animal> animals = new ArrayList<>();
         animals.add(new Cat("Мурчик",4, 200));
@@ -23,9 +23,10 @@ public class Main {
         }
         System.out.println(" ");
 
-        ZooShop myZooShop = new ZooShop("Happy House");
-        myZooShop.setShopName("Happy House");
-        myZooShop.setAnimals(animals);
+//        ZooShop myZooShop = new ZooShop("Happy House");
+        ZooShop myZooShop = new ZooShop("happy zoo", animals);
+//        myZooShop.setShopName("Happy House");
+//        myZooShop.setAnimals(animals);
         myZooShop.getAnimalsNames();
         myZooShop.getFourLegsAnimals();
         myZooShop.getCheapAnimals();
