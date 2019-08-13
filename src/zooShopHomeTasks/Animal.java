@@ -1,6 +1,6 @@
 package zooShopHomeTasks;
 
-public class Animal {
+public abstract class Animal {
     private String name;
     private int legsCount;
     private int price;
@@ -25,6 +25,5 @@ public class Animal {
 
     public void voice(){
         System.out.println("Hello! I'm" + name);
-
     }
 }

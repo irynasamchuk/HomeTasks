@@ -6,7 +6,6 @@ public class ZooShop {
     public String shopName;
     public List<Animal> animals;
 
-
 //    public ZooShop(String shopName) {
 //        this.shopName = shopName;
 //    }
@@ -48,7 +47,7 @@ public class ZooShop {
         System.out.println("\nТварини, які коштують менше 100$:");
         for (Animal animal : animals) {
             if (animal.getPrice() < 100) {
-                System.out.println(animal.getName() + " " + animal.getPrice());
+                System.out.println(String.format("&s &s", animal.getName(), animal.getPrice()));
             }
         }
     }
