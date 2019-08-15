@@ -1,6 +1,6 @@
 package personTreeSet;
 
-class Person{
+class Person {
     private String Name;
     private int age;
 
