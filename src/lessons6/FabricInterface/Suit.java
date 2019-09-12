@@ -1,10 +1,6 @@
 package lessons6.FabricInterface;
 
-import java.sql.SQLOutput;
-
 public class Suit extends Clothes implements Fabric {
-
-
     public Suit(String name, String size, int price, String color, String season) {
         super(name, size, price, color, season);
     }

@@ -1,6 +1,6 @@
 package lessons6.FabricInterface;
 
-public class Dress extends Clothes implements Fabric{
+public class Dress extends Clothes implements Fabric {
     public Dress(String name, String size, int price, String color, String season) {
         super(name, size, price, color, season);
     }

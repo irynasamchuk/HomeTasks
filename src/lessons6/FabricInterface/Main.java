@@ -4,7 +4,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Main {
-
     public static void main(String[] args) {
 
         Suit suit = new Suit("suit", "M", 800, "red", "Winter");
@@ -15,7 +14,7 @@ public class Main {
         typesOfClothes.add(dress);
         typesOfClothes.add(skirt);
 
-        for (Fabric element : typesOfClothes){
+        for (Fabric element : typesOfClothes) {
             element.popularity();
             element.price();
             element.type();
