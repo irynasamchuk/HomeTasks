@@ -43,5 +43,6 @@ public class Main {
                 break;
         }
         System.out.println(season);
+        System.out.println(season);
     }
 }
