@@ -43,8 +43,7 @@ public class Main {
                 break;
         }
         System.out.println(season);
-        System.out.println(season);
-        System.out.println(season);
         System.out.println("Hello conflict!");
+        System.out.println("Try again!");
     }
 }
