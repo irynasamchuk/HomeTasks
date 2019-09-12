@@ -46,5 +46,6 @@ public class Main {
         System.out.println("Hello conflict!");
         System.out.println("Try again!");
         System.out.println("New version from console!");
+        System.out.println("New version!");
     }
 }
