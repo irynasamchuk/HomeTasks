@@ -43,9 +43,5 @@ public class Main {
                 break;
         }
         System.out.println(season);
-        System.out.println("Hello conflict!");
-        System.out.println("Try again!");
-        System.out.println("New version from console!");
-        System.out.println("New version!");
     }
 }
